@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD App</title>
+
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        input { padding: 6px; margin-right: 10px; }
+        button { padding: 6px 15px; margin-right: 5px; }
+        .user { padding: 10px; border-bottom: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+    <h2>CRUD Users with Fetch + LocalStorage</h2>
+
+    <input id="nameInput" type="text" placeholder="Enter name" />
+    <input id="emailInput" type="text" placeholder="Enter email" />
+    <button id="addBtn">Add User</button>
+
+    <h3>User List</h3>
+    <div id="userList"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
